@@ -8,7 +8,7 @@ async def joke(update: Update, context: ContextTypes.DEFAULT_TYPE):
     joke_data = r.json()
     await update.message.reply_text(joke_data['setup'] + '\n' + joke_data['punchline'])
 
-TOKEN = '8613712340:AAGdoXCZjKayiAToU_fYBQdIPZo5gJTeqnk'
+TOKEN = '*******'
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Hello! I am your Python bot')
